@@ -4,10 +4,10 @@
 
 int main()
 {
-    try{
-        Window window{400, 400};
+    try
+    {
+        Window window{1000, 1000};
         window.runWindow();
-        
     }
     catch(std::string x)
     {

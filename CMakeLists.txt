@@ -5,9 +5,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(polygon-visualiser)
 
-include(${CMAKE_CURRENT_SOURCE_DIR}/external/external.cmake)
-
-
 add_library(
     point
     src/Logic/Point.hpp
@@ -26,6 +23,7 @@ add_library(
 
 
 find_package(Threads REQUIRED)
+find_package(SDL2 REQUIRED)
 
 add_executable(main src/main.cpp)
 
