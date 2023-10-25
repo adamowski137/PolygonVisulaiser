@@ -59,6 +59,13 @@
         "map": "cpp",
         "iomanip": "cpp",
         "sstream": "cpp",
-        "cfenv": "cpp"
+        "cfenv": "cpp",
+        "set": "cpp",
+        "strstream": "cpp",
+        "bitset": "cpp",
+        "optional": "cpp",
+        "shared_mutex": "cpp",
+        "typeindex": "cpp",
+        "variant": "cpp"
     }
 }

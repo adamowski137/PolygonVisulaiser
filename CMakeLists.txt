@@ -21,8 +21,7 @@ add_library(
     window
     src/Ui/Window.hpp
     src/Ui/Window.cpp
-    src/Ui/Button.hpp
-    src/Ui/Button.cpp
+    src/Ui/State.hpp
 )
 
 find_package(Threads REQUIRED)
@@ -39,8 +38,8 @@ add_library(
     ${IMGUI_DIR}/imgui_tables.cpp
     ${IMGUI_DIR}/backends/imgui_impl_sdl2.h
     ${IMGUI_DIR}/backends/imgui_impl_sdl2.cpp
-    ${IMGUI_DIR}/backends/imgui_impl_opengl3.cpp
-    ${IMGUI_DIR}/backends/imgui_impl_opengl3.h
+    ${IMGUI_DIR}/backends/imgui_impl_sdlrenderer2.cpp
+    ${IMGUI_DIR}/backends/imgui_impl_sdlrenderer2.h
 )
 
 # Add ImGui include directory

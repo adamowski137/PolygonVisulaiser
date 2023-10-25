@@ -6,7 +6,10 @@ int main()
 {
     try
     {
-        Window window{1000, 1000};
+        int width = 1920;
+        int height = 1080;
+
+        Window window{width, height};
         window.runWindow();
     }
     catch(std::string x)
